@@ -16,9 +16,6 @@ Before installing, please take your time to read this whole README as common iss
 - [InputEvent](https://github.com/natural-harmonia-gropius/input-event) - Enhanced input.conf with better, conflict-free, low-latency event mechanisms.
 - [autodeint](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autodeint.lua) - Automatically deinterlace the video by using lavfi's idet filter to detect interlaced content.
 - [autoload](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua) - Automatically load playlist entries before and after the currently playing file, by scanning the directory.
-- [webtorrent-mpv-hook](https://github.com/mrxdst/webtorrent-mpv-hook) - Adds a hook that allows mpv to stream torrents. It provides an osd overlay to show info/progress.
-    - **This script requires some extra setup, follow the simple installation steps [here](https://github.com/mrxdst/webtorrent-mpv-hook#install)**.
-    - **Point to the same location specified in the File Structure section below, when installing the webtorrent.js file.**
 - - - 
 - [nnedi3 and ravu](https://github.com/bjin/mpv-prescalers) - User shaders for prescaling.
 - [FSRCNN](https://github.com/igv/FSRCNN-TensorFlow/releases) - Prescaler based on layered convolutional networks.
@@ -79,7 +76,6 @@ mpv
 |   |   ├── memo-history.log              # Created automatically 
 │   │   ├── thumbfast.conf                    
 │   │   ├── uosc.conf                     # Set desired default directory for uosc menu here
-│   │   └── webtorrent.conf               # Specify where to save downloaded files here
 │   │
 │   ├── scripts      
 │   │   ├── uosc              
@@ -135,7 +131,6 @@ mpv
 │   │   ├── inputevent.lua
 |   |   ├── memo.lua
 │   │   ├── thumbfast.lua                     
-│   │   └── webtorrent.js                 # Point here when installing the webtorrent script
 │   │
 │   ├── shaders                          
 │   │   ├── A4K_Clamp_Highlights.glsl                         
